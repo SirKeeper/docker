@@ -1,5 +1,3 @@
 To launch this docker :
 
-sudo docker run -d -p 80 --name website \
--v $PWD/website:/var/www/html/website \
-pacolain/nginx nginx
+sudo docker run -d -p 80 --name website -v $PWD/website:/var/www/html/website pacolain/nginx nginx
